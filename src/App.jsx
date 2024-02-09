@@ -61,6 +61,7 @@ export const ProtectedRoutes = ({ children }) => {
   }
 }
 
+// protected view
 export const ProtectedRoutesForAdmin = ({children}) => {
   const admin = JSON.parse(localStorage.getItem('user'))
   console.log(admin.user.email)
